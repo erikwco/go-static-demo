@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{{define "layout"}}
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>{{template "title"}}</title>
+      <link rel="stylesheet" href="/static/css/main.css" type="text/css">
+      {{template "css"}}
+    </head>
+    <body>
+      {{template "body"}}
+      <footer>Made with Go</footer>
+      <script type="application/javascript" src="/static/js/main.js"></script>
+      {{template "js" }}
+    </body>
+  </html>
+{{end}}
